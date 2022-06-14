@@ -1,0 +1,5 @@
+23:01:45.181 [main] INFO  resource.Base - Driver Initialised
+23:01:55.299 [main] INFO  resource.Base - Closing the browser
+23:09:12.619 [main] INFO  resource.Base - Driver Initialised
+23:09:12.660 [main] INFO  resource.Base - Clicking on forgot password link button
+23:09:22.799 [main] INFO  resource.Base - Closing the browser

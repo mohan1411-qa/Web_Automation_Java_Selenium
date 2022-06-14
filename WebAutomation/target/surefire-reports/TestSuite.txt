@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 24.205 s <<< FAILURE! - in TestSuite
+LoginPage.ForgotPasswordTest.forgotpasswordValidation  Time elapsed: 1.37 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at LoginPage.ForgotPasswordTest.forgotpasswordValidation(ForgotPasswordTest.java:47)
+
+LoginPage.LoginPageTest.teardown  Time elapsed: 5.092 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'DESKTOP-MQ2OVQS', ip: '192.168.1.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d4318a5e280d36572be521e7acf9fb8f, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\mohan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51030/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d4318a5e280d36572be521e7acf9fb8f
+	at LoginPage.LoginPageTest.teardown(LoginPageTest.java:36)
+
